@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <talents>
+    <talent key="奋不顾身" desc="一定概率替队友挡下攻击，触发几率与等级有关。"/>
+    
+    <!-- TODO -->
+    <talent key="芳草美人" desc="暂未定义"/>
+    <talent key="追魂" desc="不打败敌人誓不罢休，每次攻击均概率造成伤害叠加特效"/>
+    <talent key="热血" desc="热血沸腾的豪侠，集气一定概率成倍增长"/>
+  </talents>
+</root> 

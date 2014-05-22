@@ -1,0 +1,25 @@
+<root>
+  <story name="test_nothing">
+    <action type="DIALOG" value="主角#什么也没有发生..." />
+  </story>
+  <story name="test_TEST">
+    <action type="BACKGROUND" value="地图.后山"/>
+    <action type="DIALOG" value="主角#来，我们测试一下吧!" />
+    <action type="DIALOG" value="公子哥#虽然是测试，不过我觉得，要是只是说废话就太没意思了。" />
+    <action type="DIALOG" value="主角#...你在说啥？" />
+    <action type="DIALOG" value="公子哥#不觉得，我们两个人在这里被一个SB程序猿点来点去，很没面子么？" />
+    <action type="DIALOG" value="主角#好吧...你要怎样？"/>
+    <action type="DIALOG" value="公子哥#让我们一起扁他一顿如何？" />
+    <action type="SELECT" value="主角#要挑战我们吗？#挑战！#算了.."/>
+    <result ret="0" type="story" value="test_TEST2" />
+    <result ret="1" type="story" value="test_TEST3" />
+  </story>
+  <story name="test_TEST2">
+    <action type="DIALOG" value="公子哥#很遗憾，战斗系统还没完成。我说着玩的。" />
+    <action type="DIALOG" value="主角#..."/>
+  </story>
+  <story name="test_TEST3">
+    <action type="DIALOG" value="主角#算了，就让他多点两下也不会少几斤肉。" />
+    <action type="DIALOG" value="公子哥#好吧..." />
+  </story>
+</root>

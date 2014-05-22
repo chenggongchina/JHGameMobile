@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <resource key="地图.无名山中" value="map/shanzhong"/>
+  <resource key="地图.后山" value="map/huashanhoushan"/>
+  <resource key="地图.大厅" value="map/dating"/>
+</resources>

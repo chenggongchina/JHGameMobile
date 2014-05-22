@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<roles>
+    <role key="主角" name="掌门师兄" head="头像.主角" maxhp="100" maxmp="100" pot="10000">
+      <skills>
+        <skill key="太极剑法" exp="200000"/>
+        <skill key="流莹飞雪" exp="10000"/>
+      </skills>
+    </role>
+		<role key="公子哥" name="公子哥" head="头像.公子哥" maxhp="500" maxmp="500" pot="0"/>
+	</roles>
+</root>

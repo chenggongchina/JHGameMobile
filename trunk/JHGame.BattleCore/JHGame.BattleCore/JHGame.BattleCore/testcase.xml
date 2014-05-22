@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <roles>
+    <role key="屈绣英" name="屈绣英" lv="250" maxhp="2000" hp="2000" dodge="30" team="0" position="3">
+      <skills>
+        <skill key="陆离剑" lv="250"/>
+      </skills>
+      <talents>
+        <talent key="芳草美人" lv="250"/>
+      </talents>
+    </role>
+    <role key="白木道人" name="白木道人" lv="300" maxhp="3000" hp="3000" dodge="10" team="0" position="4">
+      <skills>
+        <skill key="苍冥剑法" lv="300"/>
+      </skills>
+      <talents>
+        <talent key="奋不顾身" lv="300"/>
+      </talents>
+    </role>
+    <role key="上官仪" name="上官仪" lv="200" maxhp="2200" hp="2200" dodge="10" team="0" position="7">
+      <skills>
+        <skill key="岳家枪法" lv="200"/>
+      </skills>
+    </role>
+    <role key="宁国候" name="宁国候" lv="300" maxhp="2500" hp="2500" dodge="30" team="1" position="4">
+      <skills>
+        <skill key="幻影刺杀术" lv="300"/>
+      </skills>
+    </role>
+    <role key="苗疆怪客" name="苗疆怪客" lv="150" maxhp="1200" hp="1200" dodge="10" team="1" position="5">
+      <skills>
+        <skill key="血剑" lv="300"/>
+      </skills>
+    </role>
+    <role key="杳月公主" name="杳月公主" lv="300" maxhp="1500" hp="1500" dodge="10" team="1" position="7">
+      <skills>
+        <skill key="新月刀法" lv="300"/>
+        <skill key="五行迷阵" lv="300"/>
+      </skills>
+    </role>
+    <role key="无相方丈" name="无相方丈" lv="300" maxhp="4500" hp="4500" dodge="10" team="1" position="3">
+      <skills>
+        <skill key="大金刚掌" lv="300"/>
+      </skills>
+    </role>
+
+  </roles>
+</root>

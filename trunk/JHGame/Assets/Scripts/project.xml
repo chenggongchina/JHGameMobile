@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<files>
+		<!--对话剧本-->
+		<file type="story" path="/Scripts/storys/test.xml"/>
+		<!--物品
+		<file type="item" path="item/item.xml"/>-->
+	    <!--战斗
+		<file type="battle" path="battles/battle.xml"/>-->
+		<!--资源
+		<file type="resources" path="resource/audios.xml"/>
+	    <file type="resources" path="resource/buffs.xml"/>
+    	<file type="resources" path="resource/items.xml"/>
+    	<file type="resources" path="resource/nicks.xml"/>
+    	<file type="resources" path="resource/talents.xml"/>
+    	<file type="resources" path="resource/tips.xml"/>
+    	<file type="resources" path="resource/ui.xml"/>
+    	<file type="resources" path="resource/roleinfo.xml"/>-->
+    	<file type="resources" path="/Scripts/resource/heads.xml"/>
+      <file type="resources" path="/Scripts/resource/maps.xml"/>
+
+		<!--角色-->
+		<file type="role" path="/Scripts/role/role.xml"/>
+		
+    	<!--技能-->
+    <file type="skill" path="/Scripts/skills/skill.xml"/>
+		
+    	<!-- 天赋
+    	<file type="talent" path="talent/talent.xml"/> -->
+		
+		<!--地图事件-->
+    <file type="map" path="/Scripts/maps/map.xml"/>
+
+    <!--任务-->
+    <file type="task" path="/Scripts/tasks/task.xml"/>
+		
+		<!--商店
+		<file type="shop" path="shop/shop.xml"/>-->
+    
+	    <!--时间触发器
+    	<file type="timetrigger" path="timetrigger/timetrigger.xml"/>-->
+    
+    	<!--动画
+    	<file type="animation" path="animations/animations.xml"/>
+    	<file type="animation" path="animations/skillanimations.xml"/>-->
+	</files>
+</project>

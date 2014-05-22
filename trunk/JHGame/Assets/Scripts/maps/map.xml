@@ -1,0 +1,39 @@
+<root>
+  <!-- 可选scenarioType有dialog（剧情类的统称，载入剧情模块）、battle（战斗类的统称，载入战斗模块）-->
+  <!-- 可选type 有 once（唯一剧情）、unlimited（可无数次触发)-->
+  <!-- 指定某个地点可能触发的事件 -->
+  <maps>
+    <!-- 主线的场景 -->
+    <map name="无名山中" pic="地图.无名山中">
+      <musics>
+        <!--<music name="音乐.开场" />-->
+      </musics>
+      <maprole roleKey="寒山孤冢"  description="后山埋骨之地"> <!--x="242" y="149"-->
+        <event type="map" value="寒山孤冢" />
+      </maprole>
+      <maprole roleKey="正气堂" description="用以接待宾客的正厅">
+        <event type="map" value="正气堂" />
+      </maprole>
+    </map>
+    
+    <map name="寒山孤冢" pic="地图.后山">
+      <musics>
+        <!--<music name="音乐.室内_安静" />-->
+      </musics>
+      <maprole roleKey="公子哥" description="到处晃荡的公子哥儿">
+        <event repeat="once" type="story" value="test_TEST"/>
+      </maprole>
+      <maprole roleKey="无名山中" description="某座无名山中">
+        <event type="map" value="无名山中" />
+      </maprole>
+    </map>
+    <map name="正气堂" pic="地图.大厅">
+      <musics>
+        <!--<music name="音乐.室内_安静" />-->
+      </musics>
+      <maprole roleKey="无名山中" description="某座无名山中">
+        <event type="map" value="无名山中" />
+      </maprole>
+    </map>
+  </maps>
+</root>

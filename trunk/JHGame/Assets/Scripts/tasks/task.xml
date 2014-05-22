@@ -1,0 +1,27 @@
+<root>
+  <!--
+  任务类型：
+    * chat:在游戏中与XXX对话
+    explore:探索XX区域
+    fight:战胜某人
+    item:搜集到某个物品
+    pk:干掉某个玩家
+    ladder:天梯名次提升XX名
+    shou:收X个徒弟
+    ......
+    
+  任务奖励：
+    series:可以开启同系列任务的下一关卡
+    pot:潜能奖励
+    card:卡牌奖励
+    energy:体力奖励
+    ......
+    
+  任务完成时限：
+    unlimited:可以一直继续
+    time:在XX小时（现实时间）内完成
+  -->
+
+  <task key="新人任务" desc="作为新手，你必须要完成这个任务！" type="chat" value="公子哥" repeat="once">
+  </task>
+</root>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <effects>
+    <effect key="幻影" desc="产生一个战斗幻影"/>
+    <effect key="识破" desc="对幻影造成一击必杀效果"/>
+    <effect key="吸收" desc="每消灭一个幻影，增加一成攻击力"/>
+    
+    <effect key="五行" desc="神秘的五行绝学，予以敌人一个随机DEBUFF"/>
+    <effect key="阴阳" desc="神秘的五行绝学，打乱敌人阵型"/>
+    <effect key="乱心" desc="控制一个敌人为我方所用两回合"/>
+
+    <effect key="吸血" desc="攻击附带吸血，效果与技能等级有关"/>
+    <effect key="血誓" desc="以自戕身体为代价，提升攻击力"/>
+
+    <effect key="战狂" desc="浴血奋战，拼死沙场。攻击力随着生命值减少而提升"/>
+
+    <effect key="震晕" desc="将对手震晕，无法行动"/>
+
+    <!-- TODO -->
+    
+    <effect key="必中" desc="无视对方闪避，必中之绝技"/>
+    <effect key="同归" desc="凄惶绝烈的招式，将以自我牺牲为代价换取敌人的巨大伤害"/>
+  </effects>
+</root> 

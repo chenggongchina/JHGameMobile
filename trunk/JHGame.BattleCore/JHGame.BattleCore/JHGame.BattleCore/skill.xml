@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <skills>
+    <skill key="陆离剑" power="1.0">
+      <subskill key="陆离剑.木兰坠露" addpower="-0.5" lv="50" ball="0" range="ALL"/>
+      <subskill key="陆离剑.光怪陆离" addpower="0" lv="50" ball="2" range="SELF" effect="幻影"/>
+    </skill>
+    <skill key="幻影刺杀术" power="0.8">
+      <subskill key="幻影刺杀术.影" addpower="0" lv="100" ball="2" range="SELF" effect="幻影"/>
+      <subskill key="幻影刺杀术.毒" addpower="0" lv="200" ball="4" debuff="中毒@1@3"/>
+    </skill>
+    <skill key="苍冥剑法" power="0.7">
+      <subskill key="苍冥剑法.苍冥鬼眼" addpower="-0.4" lv="100" ball="0" range="ALL" effect="识破"/>
+      <subskill key="苍冥剑法.苍冥星眼" addpower="-0.3" lv="200" ball="2" range="ALL" effect="吸收"/>
+    </skill>
+    <skill key="五行迷阵" power="0.1" effect="五行">
+      <!--<subskill key="五行迷阵.五行" addpower="0.0" lv="100" ball="0" effect="五行"/>-->
+      <subskill key="五行迷阵.阴阳" addpower="0.0" lv="200" ball="0" range="ALLFOREFFECT" effect="阴阳"/>
+      <subskill key="五行迷阵.乱心" addpower="0.0" lv="300" ball="4" effect="乱心"/>
+    </skill>
+    <skill key="血剑" power="0.5" effect="吸血">
+      <subskill key="血剑.血誓" addpower="0.0" lv="150" ball="2" range="SELF" effect="血誓"/>
+    </skill>
+    <skill key="岳家枪法" power="0.6" range="LINE">
+      <subskill key="岳家枪法.战狂" addpower="0.0" lv="150" ball="3" range="SELF" effect="战狂"/>
+    </skill>
+    <skill key="新月刀法" power="0.4">
+      <subskill key="新月刀法.月舞" addpower="0.0" lv="150" ball="0" range="SELF" buff="飘渺@1@3"/>
+    </skill>
+    <skill key="大金刚掌" power="0.7">
+      <subskill key="大金刚掌.金刚吼" addpower="0.0" lv="100" ball="2" range="SELF" buff="攻击强化@1@3"/>
+      <subskill key="大金刚掌.震山掌" addpower="0.7" lv="200" ball="2" effect="震晕"/>
+    </skill>
+  </skills>
+</root> 
